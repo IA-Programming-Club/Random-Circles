@@ -1,0 +1,15 @@
+void setup() {
+    size(500, 500);
+    background(200, 30, 10);
+}
+
+void draw() {
+  float circleWidth = random(200);
+  
+  fill(random(255), random(255), random(255));
+  ellipse(random(500),random(500), circleWidth,circleWidth);
+}
+
+void keyPressed() {
+  background(0);
+}
